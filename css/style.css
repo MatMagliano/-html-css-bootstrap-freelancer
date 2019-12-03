@@ -7,6 +7,9 @@
 [class*="col-"] {
   height: 100px;
 }
+[class*="title_"] {
+  text-align: center;
+}
 
 
 
@@ -30,10 +33,9 @@
 .go {
   position: relative;
   height: 400px;
-  text-align: center;
   background-color: #19bd9b;
 }
-.star{
+.title_jumbo {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -58,13 +60,16 @@
 }
 
 /* form */
-
+#form .container {
+  height: 500px;
+}
 .contact {
   text-align: center;
 }
 input[type=text] {
   border: none;
   text-transform: capitalize;
+  text-align: left;
 }
 input[type=text]:focus {
   outline: none;
@@ -72,4 +77,12 @@ input[type=text]:focus {
 .hr_message
 {
   margin-top: 70px;
+}
+
+/* footer */
+footer {
+  height: 400px;
+  text-align: center;
+  background-color: #2c3b52;
+  color: #fff;
 }
