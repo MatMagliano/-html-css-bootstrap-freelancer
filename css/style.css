@@ -1,6 +1,5 @@
 /* debug */
 [class*="container"] {
-  margin: auto;
 }
  [class*="row"] {
   margin: 10px auto;
@@ -10,14 +9,49 @@
   background-color: coral;
 }
 
-/* main */
-.go {
-  height: 400px;
-  background-color: #19bd9b
+/* nav */
+.logo h1 {
+  vertical-align: middle;
+}
+.button_menu {
+  position: relative;
+}
+.button_menu button {
+  position: absolute;
+  top:50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
+/* main */
+
+/* jumbo */
+.go {
+  position: relative;
+  height: 400px;
+  text-align: center;
+  background-color: #19bd9b;
+}
+.star{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+/* portfolio */
 .port {
   height: 100px;
-  margin: 20px auto;
-  background-color: #94f1e4
+  margin: 10px auto;
+  background-color: #94f1e4;
+}
+
+/* about */
+.about {
+  height: 400px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #19bd9b;
 }
