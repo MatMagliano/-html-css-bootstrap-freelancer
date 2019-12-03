@@ -1,0 +1,11 @@
+/* debug */
+/* [class*="container"] {
+  background-color: lightyellow;
+} */
+[class*="row"] {
+  background-color: lightgreen;
+}
+[class*="col-"] {
+  height: 100px;
+  background-color: coral;
+}
