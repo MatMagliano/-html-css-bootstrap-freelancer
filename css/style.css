@@ -6,8 +6,9 @@
 }
 [class*="col-"] {
   height: 100px;
-  background-color: coral;
 }
+
+
 
 /* nav */
 .logo h1 {
@@ -54,4 +55,21 @@
   margin: 10px auto;
   text-align: center;
   background-color: #19bd9b;
+}
+
+/* form */
+
+.contact {
+  text-align: center;
+}
+input[type=text] {
+  border: none;
+  text-transform: capitalize;
+}
+input[type=text]:focus {
+  outline: none;
+}
+.hr_message
+{
+  margin-top: 70px;
 }
