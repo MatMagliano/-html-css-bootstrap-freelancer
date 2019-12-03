@@ -1,9 +1,9 @@
 /* debug */
-/* [class*="container"] {
-  background-color: lightyellow;
-} */
-[class*="row"] {
-  background-color: lightgreen;
+[class*="container"] {
+  margin: auto;
+}
+ [class*="row"] {
+  margin: 10px auto;
 }
 [class*="col-"] {
   height: 100px;
@@ -13,4 +13,11 @@
 /* main */
 .go {
   height: 400px;
+  background-color: #19bd9b
+}
+
+.port {
+  height: 100px;
+  margin: 20px auto;
+  background-color: #94f1e4
 }
