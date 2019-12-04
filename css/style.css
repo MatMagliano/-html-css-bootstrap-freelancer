@@ -4,11 +4,14 @@ body {
   font-family: Montserrat;
 }
 .box {
-  padding: 80px;
+  padding: 80px 0;
 }
 [class*="title_"] {
   text-align: center;
   text-transform: uppercase;
+}
+[class*="title_"] h1{
+  font-weight: 700;
 }
 .align_dx {
   text-align: right;
@@ -58,7 +61,12 @@ p {
   text-decoration: none;
   color: #369180;
 }
+.align_dx button {
+  font-size: 14px;
+  font-weight: 700;
+}
 .align_dx button i {
+  padding-left: 10px;
   font-size: 14px;
 }
 .button_menu {
@@ -100,9 +108,6 @@ p {
 .title_portfolio {
   color: #2c3d51;
 }
-.title_portfolio h1 {
-  font-weight: 700;
-}
 .port {
   text-align: center;
   margin: 15px 0;
@@ -114,10 +119,27 @@ p {
 
 /* about */
 .about {
-  height: 400px;
-  margin: 10px auto;
   text-align: center;
   background-color: #19bd9b;
+  color: #fff;
+}
+.about_p p {
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: Lato;
+}
+.btn_about {
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: #19bd9b;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn_about:hover {
+  background-color: #fff;
+}
+.btn_about i {
+  padding-right: 10px;
 }
 
 /* form */
