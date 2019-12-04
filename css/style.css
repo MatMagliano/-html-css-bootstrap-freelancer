@@ -73,14 +73,14 @@ p {
   position: relative;
   height: 80px;
 }
-.btn-success{
+.btn_nav{
   position: absolute;
   top: 50%;
   right: 15px;
   transform: translateY(-50%);
   background-color: #19bd9b;
 }
-.btn-success:hover {
+.btn_nav:hover {
   background-color: #369180;
 }
 
@@ -149,22 +149,36 @@ p {
 .contact {
   text-align: center;
 }
+.title_contact {
+  color: #2c3d51;
+}
 input[type=text] {
+  margin-bottom: 10px;
   border: none;
   text-transform: capitalize;
+  font-size: 21px;
   text-align: left;
+  color: #CDD5D1;
 }
 input[type=text]:focus {
   outline: none;
 }
-.hr_message
-{
+.hr_message {
   margin-top: 70px;
 }
+.btn_contact {
+  padding: 20px;
+  background-color: #19BD9B;
+}
+.btn_contact:hover {
+  background-color: #369180;
+}
+
+
 
 /* footer */
 footer {
-  height: 400px;
+  margin-top: 150px;
   text-align: center;
   background-color: #2c3b52;
   color: #fff;
