@@ -1,6 +1,10 @@
 
 body {
   margin-top: 80px;
+  font-family: Montserrat;
+}
+.box {
+  padding: 80px;
 }
 [class*="title_"] {
   text-align: center;
@@ -93,11 +97,19 @@ p {
 
 
 /* portfolio */
+.title_portfolio {
+  color: #2c3d51;
+}
+.title_portfolio h1 {
+  font-weight: 700;
+}
 .port {
   text-align: center;
+  margin: 15px 0;
 }
 .port img {
-  width: 350px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* about */
